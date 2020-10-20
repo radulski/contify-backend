@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": ">=5.4",
+        "slim/slim": "3.*",
+        "tuupola/slim-basic-auth": "^3.2",
+        "monolog/monolog": "^1.24",
+        "aws/aws-sdk-php": "^3.87",
+        "slim/twig-view": "^2.4",
+        "slim/php-view": "^2.2",
+        "tuupola/cors-middleware": "^1.1",
+        "thiagoalessio/tesseract_ocr": "^2.9",
+        "peppeocchi/php-cron-scheduler": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+        }
+    }
+}

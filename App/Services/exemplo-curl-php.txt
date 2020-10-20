@@ -1,0 +1,29 @@
+            //ao inserir registros na base contify, guardar na tabela o id do retorno do Questor
+            //tabela integracao
+            //id, tenantId, companyId (fk), responseIdQuestor 
+            //pegar dados json e converter para txt
+
+
+            //Curl Company
+            /*
+            $curl = curl_init("http://192.168.44.44/integracao/" . $dados); 
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true); // Return, do not echo result   
+            curl_setopt($curl, CURLOPT_POSTFIELDS, $dados);
+            $curl_response = curl_exec($curl);
+            curl_close($curl);
+            */
+            
+            /*
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, "http://website.com/method");
+            curl_setopt($ch, CURLOPT_HEADER, 0);            // No header in the result 
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return, do not echo result   
+
+            // Fetch and return content, save it.
+            $raw_data = curl_exec($ch);
+            curl_close($ch);
+
+            // If the API is JSON, use json_decode.
+            $data = json_decode($raw_data);
+            var_dump($data);
+            */
